@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+/* General Styling */
+body {
+    background-color: #bdc8b0; /* Sage green from image_ade024.jpg */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Requirement: Entire content width of 1100px */
+.main-wrapper {
+    width: 1100px;
+}
+
+.imageContainer {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imageContainer img {
+    width: 100%;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #7c8673;
+    background-color: #bdc8b0;
+}
+
+td {
+    border: 1px solid #7c8673;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Ensure images fit the 200px columns */
+td img {
+    width: 100%;
+    display: block;
+}
+
+.center-text {
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.objective-content {
+    text-align: center;
+}
+
+.objective-content h3 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.objective-content p {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.caption {
+    font-size: 11px;
+    margin-top: 5px;
+}
